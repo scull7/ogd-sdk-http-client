@@ -1,6 +1,6 @@
 const { URLSearchParams } = require("url");
 const { inspect } = require("util");
-const { bent } = require("bent");
+const bent = require("bent");
 
 const Http = (function () {
   const RESPONSE_TYPE_JSON = "json";
